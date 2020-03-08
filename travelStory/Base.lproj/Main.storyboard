@@ -351,7 +351,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="OmZ-c6-n3x"/>
                     </view>
-                    <tabBarItem key="tabBarItem" image="square.and.arrow.up" catalog="system" id="hOT-eK-pCp"/>
+                    <tabBarItem key="tabBarItem" image="bookmark" catalog="system" springLoaded="YES" id="hOT-eK-pCp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qQ7-PT-qxw" sceneMemberID="firstResponder"/>
             </objects>
@@ -414,7 +414,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="58"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m1C-9U-qcL">
+                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1C-9U-qcL">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="58"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
@@ -506,10 +506,10 @@
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="平城宮跡" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZ5-ZY-jhe">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="平城宮跡" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZ5-ZY-jhe">
                                                     <rect key="frame" x="167" y="29" width="216" height="61"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -549,10 +549,10 @@
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="一乘寺中谷的兔子布丁" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="28S-TN-zHk">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="一乘寺中谷的兔子布丁" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="28S-TN-zHk">
                                                     <rect key="frame" x="167" y="29" width="216" height="61"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -592,10 +592,10 @@
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="速度" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIg-zc-Vlt">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="速度" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIg-zc-Vlt">
                                                     <rect key="frame" x="167" y="29" width="216" height="61"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -624,14 +624,14 @@
             <objects>
                 <viewController id="cXy-ee-BqQ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bhe-x1-0dP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VSb-lf-cKw">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NPJ-Sh-JkU">
+                                    <view contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NPJ-Sh-JkU">
                                         <rect key="frame" x="8" y="0.0" width="398" height="1500"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
@@ -646,7 +646,7 @@
                                                 <rect key="frame" x="12" y="49" width="374" height="234"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="ixX-zn-EpM">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixX-zn-EpM">
                                                 <rect key="frame" x="12" y="281" width="374" height="1816"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -664,7 +664,7 @@
 
 不過...在靠近車站時，我們被路邊的大型超市吸了進去，本來只是想買買飲料的，結果竟然在這裡花了不少錢，買了飲料、水蜜桃跟零食，反而這天花最多錢的地方竟然是這裡啊~~</string>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
@@ -700,6 +700,9 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xbg-tK-IaX">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="HRA-kW-zrz" kind="relationship" relationship="rootViewController" id="oXl-j7-kLH"/>
                     </connections>
@@ -935,10 +938,10 @@
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="平城宮跡" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5N-lY-wYX">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="平城宮跡" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5N-lY-wYX">
                                                     <rect key="frame" x="167" y="29" width="216" height="61"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -978,10 +981,10 @@
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="一乘寺中谷的兔子布丁" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJL-Lp-pRm">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="一乘寺中谷的兔子布丁" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJL-Lp-pRm">
                                                     <rect key="frame" x="167" y="29" width="216" height="61"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -1021,10 +1024,10 @@
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="速度" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Imf-Sg-Kzi">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="速度" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Imf-Sg-Kzi">
                                                     <rect key="frame" x="167" y="29" width="216" height="61"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -1093,7 +1096,7 @@
 
 不過...在靠近車站時，我們被路邊的大型超市吸了進去，本來只是想買買飲料的，結果竟然在這裡花了不少錢，買了飲料、水蜜桃跟零食，反而這天花最多錢的地方竟然是這裡啊~~</string>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
@@ -1153,7 +1156,7 @@
 本來只是想去一乘寺中谷買買可愛的兔子布丁，但因為發現離店家關門還早，所以就在店附近逛逛，沒想到就遇上有名的宮本武藏與吉岡(不是"我們這一家"裡的那個吉岡)的決鬥處，離一乘寺中谷也才約200公尺遠而已，在決鬥處的對角有間八大神社，後來才知道裡頭除了有保存當年決鬥時那顆松樹的本尊外，也有些宮本的事跡資料，不過那年經過時只是從外頭繞過去，沒想到這間小小的神社也算有來頭的。
 自助旅行容易有意外的驚喜，當然也容易有點小缺憾，像是我們會先查好一乘寺中谷的資料，卻沒料到會遇上宮本武藏的決鬥處，當然也不會一乘寺松下決鬥或八大神社做任何功課，所以常常是回頭瞭解後才發現當時怎麼沒注意到或是有眼不識泰山，接著就是計畫著如果下去再去時一定要去看看之類的。</string>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
@@ -1213,7 +1216,7 @@
 
 出發前是知道有騎腳踏車的方式遊歷京都，不過一來是我們住的是商務旅館我們一時也不知有沒得借，二來是覺得利用步行加公車等方式也就足夠了，所以我們一直就沒換過遊歷的速度，而且走在京都的街頭，其實，很舒服。倒也不是說京都天氣怡人走起路來特別好走，2010年去時，我們參乎每天都是在豔陽下步行，因為捨不得花飲料錢，所以經常是熱到汗流夾背還是得走下去的情況，只是京都的街頭有很多可看的地方，哪怕只是一般人家家門口的小花園，或是轉個彎就不經意發現的老店或歷史古蹟，都讓步行變得很有趣，也很興奮，因為不知道前面會不會又遇到什麼驚喜。</string>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
@@ -1256,7 +1259,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="58"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XNf-yV-7KR">
+                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XNf-yV-7KR">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="58"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
@@ -1348,10 +1351,10 @@
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2012新潟跨年-Day1" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIa-sI-IOt">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2012新潟跨年-Day1" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIa-sI-IOt">
                                                     <rect key="frame" x="167" y="29" width="216" height="61"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -1391,10 +1394,10 @@
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2012新潟跨年-Day2" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKp-4F-jxy">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2012新潟跨年-Day2" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="BKp-4F-jxy">
                                                     <rect key="frame" x="167" y="29" width="216" height="61"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -1434,10 +1437,10 @@
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="新潟跨年-Day3-世界還沒醒" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="td1-wg-Nb8">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="新潟跨年-Day3-世界還沒醒" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="td1-wg-Nb8">
                                                     <rect key="frame" x="167" y="29" width="216" height="61"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -1492,12 +1495,12 @@
                                                 <rect key="frame" x="12" y="281" width="374" height="1816"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                                <mutableString key="text">到新潟過年其實是個意料之外的事。
+                                                <string key="text">到新潟過年其實是個意料之外的事。
 
 起因是老婆在網路上看見ezfly有個神秘機票的東西，看了看內容覺得開出來的機票是真的算挺便宜的，但當下也沒什麼想法，就只是覺得4月份已經去過一次日本，好像再去在經費上也有點小緊，但看了幾遍後就覺得年末再去走一趟好像也不錯，而且可以看到雪這件事讓我覺得棒，只是在我們終於決定要下手買票時，竟然賣光了，既然沒了我們倒也就只能打消這個念頭，沒想到到了下一星期ezfly又放出10張(不過貴了1千)，這次我們就不管那麼多先衝再說啦~。
 
 出發往新潟那天是12/30，班機時間是7:55所以代表我們得在5:55前到機場，但為了先找到團客的領隊拿我們的電子機票及登機証，我們決定再早點到機場，但沒想到的是，早上5:30的桃機一航竟然是人山人海啊~~
-不過說實在的，一航或許是還在改裝，所以有的動線真的不太方便，加上免稅商店也沒幾間，所以其實我們早到是有點無聊啦，既然沒事了，不然就慢慢走去登機門，而且掛行李時地勤人員說我們的登機門有點遠，所以還是早點過去比較好，一路走到b1登機門時，注意到我們的b1r登機門還得搭手扶電梯往一樓下去，才發現原來我們等會還要坐接駁車才能真正登機啊(第一次在桃機坐接駁車)。</mutableString>
+不過說實在的，一航或許是還在改裝，所以有的動線真的不太方便，加上免稅商店也沒幾間，所以其實我們早到是有點無聊啦，既然沒事了，不然就慢慢走去登機門，而且掛行李時地勤人員說我們的登機門有點遠，所以還是早點過去比較好，一路走到b1登機門時，注意到我們的b1r登機門還得搭手扶電梯往一樓下去，才發現原來我們等會還要坐接駁車才能真正登機啊(第一次在桃機坐接駁車)。</string>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1522,7 +1525,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mAM-W6-0xz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3688" y="-680"/>
+            <point key="canvasLocation" x="3687" y="-751"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="CRQ-66-1cw">
@@ -1555,7 +1558,7 @@
                                                 <rect key="frame" x="12" y="281" width="374" height="1816"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                                <mutableString key="text">那麼就來說說這2012年的最後一晚吧，其實從來也沒想到過會在最後一天跑到日本新潟跨年，每年這時大概都是看起電視上的特別節目，然後準備看101的煙火。
+                                                <string key="text">那麼就來說說這2012年的最後一晚吧，其實從來也沒想到過會在最後一天跑到日本新潟跨年，每年這時大概都是看起電視上的特別節目，然後準備看101的煙火。
 決定來新潟其實也是有那麼點衝動的味道，但有時那麼點的衝動其實也很有趣，讓生活有驚喜，讓生命有更多的回憶。
 
 31號從越後湯澤回到新潟車站雪愈來愈大了，由於是日本的過年，所以冷冽的空氣，車站裡快步走的人群，望著月台上覆了一層白雪的電車，似乎更顯得有些孤寂，暫時回到飯店的我們，待在小小的房間裡，看著電視裡準備歡慶過年的節目，把年終的孤獨吹散了許多。
@@ -1569,7 +1572,7 @@
 大約11點40時我們到了彌彥車站，這是這班專車的終點站，所有人離開溫暖的車箱，再度回到寒冷的冬夜，彌彥站不大，先前下了車的人已經快步的離開了，車站裡雖還有人群在聊天，卻深夜寧靜的味道；我們等確定方向後也走出車站，往明亮卻只剩朝著同一方向的行人各自前進著。
 彌 彥站往彌彥神社的路上是住宅區，所以這個時間或許都睡了，很難從外觀看出裡頭的人是睡了還是其實家人正聚在客廳看著紅白，我們繼續頂著白雪前進，而心理卻 不若剛才在車上的擔心，反而有種平靜感，一路上踏踏蹟雪，或是看著在台灣不會存在的設備(馬路中間雙黃線會流水出來把雪融掉)，等走到神社時我們才真正的 體驗了日本的過年。
 
-從神社外頭就會看見從四面八方湧過來的人群，而店外特別延長營業的小店賣著一隻隻串著乾魷魚的竹子，再 往前走就看見很大的一個火場，有人把剛才買來的魷魚在火上烤著，也有人把門松或去年的護符等物品丟進大火中燒掉，我們跟著人群前進，終於不能再前進，只能 在遠處望著階梯上緩步進入神社內的人群，而時間也慢慢逼近0點。</mutableString>
+從神社外頭就會看見從四面八方湧過來的人群，而店外特別延長營業的小店賣著一隻隻串著乾魷魚的竹子，再 往前走就看見很大的一個火場，有人把剛才買來的魷魚在火上烤著，也有人把門松或去年的護符等物品丟進大火中燒掉，我們跟著人群前進，終於不能再前進，只能 在遠處望著階梯上緩步進入神社內的人群，而時間也慢慢逼近0點。</string>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1594,7 +1597,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hzs-uc-0Ai" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4659" y="-680"/>
+            <point key="canvasLocation" x="4658" y="-430"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="chT-dJ-x8Y">
@@ -1627,13 +1630,13 @@
                                                 <rect key="frame" x="12" y="281" width="374" height="1816"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                                <mutableString key="text">剛從睡夢中醒來，望向窗外，似乎還是一片雪白。習慣台北的色調跟天氣，很難想像自己正處在一個被雪覆蓋的世界裡， 看著外頭緩緩降落的細雪，慢慢地，悠雅地，寧靜地，新年第一天，似乎世界還沈沈的睡著。
+                                                <string key="text">剛從睡夢中醒來，望向窗外，似乎還是一片雪白。習慣台北的色調跟天氣，很難想像自己正處在一個被雪覆蓋的世界裡， 看著外頭緩緩降落的細雪，慢慢地，悠雅地，寧靜地，新年第一天，似乎世界還沈沈的睡著。
 
 新 潟街頭不若台北的元旦，我們從旅館一路踏著雪走著，路上不見什麼行人，店家也都休息，就算我們走到百貨公司，也都是大門深鎖，當我駐足往馬路上試著將大雪 的片刻停留下來，留下了這幾張寧靜又很輕柔的相片，這幾天台北的炎熱，實在很難回想當天在路上捧著落雪，或是將橋礅上的積雪推下河裡的感覺。
 
 日 本的新年會習慣至神社參拜，所以我們再次跳上電車前往白山神社，出了站接下來還是在雪地裡走上一段路，在雪裡走路其實感覺很不同，因為走在雪上會發出沙沙 的聲音，加上不習慣雪地走路，走起來其實蠻費力的，所以在專心走路時，唯一就只有自己心理的聲音跟沙沙聲，一步一步的往前進，一步一步的往目的地接近。白 山神社在新潟市區是相當大的神社，我們到神社時裡頭早已是滿滿的人群，圍著神社的是一攤又一攤的攤販，參拜完神社後好奇為何每攤賣一種像黑糖榚的東西(我 完全忘了叫什麼名字)都是大排長龍，決定也買一份吃看看，排了許久後嚐嚐看的結果是，其實不錯吃，吃起來像是長條狀的雞蛋榚，尤其熱熱的吃還蠻舒服的。
 
-這一天或許日本還在休日，所以除了在白山神社看到很多參拜的人外，其他時候人都是少少的，沿路的店家也都還沒營業，只有我們兩個好奇的旅人，在雪地上沙沙的走著。</mutableString>
+這一天或許日本還在休日，所以除了在白山神社看到很多參拜的人外，其他時候人都是少少的，沿路的店家也都還沒營業，只有我們兩個好奇的旅人，在雪地上沙沙的走著。</string>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1658,10 +1661,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q8b-af-2Qk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5594" y="-680"/>
+            <point key="canvasLocation" x="5593" y="-751"/>
         </scene>
     </scenes>
     <resources>
+        <image name="bookmark" catalog="system" width="56" height="64"/>
         <image name="cat-animal-cat-portrait-mackerel" width="256" height="175"/>
         <image name="g1-img1" width="720" height="479"/>
         <image name="g1-img2" width="720" height="480"/>
@@ -1673,7 +1677,6 @@
         <image name="person.circle" catalog="system" width="64" height="60"/>
         <image name="person.crop.circle" catalog="system" width="64" height="60"/>
         <image name="sakura" width="2592" height="1728"/>
-        <image name="square.and.arrow.up" catalog="system" width="56" height="64"/>
         <image name="京都2" width="4032" height="3024"/>
         <image name="尾道" width="480" height="271"/>
         <image name="布里斯本" width="4032" height="3024"/>
@@ -1683,7 +1686,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="IC0-S3-rgr"/>
-        <segue reference="Eic-Ej-JVX"/>
+        <segue reference="Z3L-H6-PB9"/>
         <segue reference="65q-Dz-KdK"/>
     </inferredMetricsTieBreakers>
 </document>
